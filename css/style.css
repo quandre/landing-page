@@ -1,24 +1,24 @@
 :root {
-    --primary: #151642;
-    --secondary: #D5E944;
-    --white: #fff;
-    --black: #000;
+  --primary: #151642;
+  --secondary: #d5e944;
+  --white: #fff;
+  --black: #000;
 }
 
 * {
-    box-sizing: inherit;
-    margin: 0;
-    padding: 0;
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
 }
 
 html {
-    box-sizing: border-box;
-    font-size: 62.5%;
+  box-sizing: border-box;
+  font-size: 62.5%;
 }
 
 body {
-    font-size: 1.6rem;
-    font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .container {
@@ -83,8 +83,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: linear-gradient(90deg, var(--secondary) 70%,
-  var(--primary) 30%);
+  background: linear-gradient(90deg, var(--secondary) 70%, var(--primary) 30%);
   padding: 12.8rem 8rem;
   border-radius: 25px;
 }
@@ -136,26 +135,25 @@ body {
   margin-right: 1.6rem;
 }
 
+.hero__left-btn a,
+.hero__right-btn a {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+  font-size: 1.44rem;
+}
+
 .big {
   columns: var(--white);
   font-size: 2.08rem;
   font-weight: bold;
 }
 
-.hero__left-btn-text,
-.hero__right-btn-text {
-  color: rgba(255, 255, 255, .8);
-  font-size: 1.44rem;
-}
-
 .hero__right {
   display: flex;
-
 }
 
-.hero__right img{
+.hero__right img {
   margin-right: 5rem;
   max-width: 600px;
   object-fit: cover;
-  
 }
